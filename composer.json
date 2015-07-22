@@ -1,0 +1,16 @@
+{
+	"name": "dasred/zend-console",
+
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+
+	"require": {
+		"zendframework/zend-console": "@stable"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"DasRed\\Zend\\": "src/"
+		}
+	}
+}
